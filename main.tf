@@ -15,9 +15,9 @@ data "nutanix_subnet" "subnet" {
 }
 
 provider "nutanix" {
-	username = "admin"
+	username = var.user
 	password = var.password
-	endpoint = "10.38.4.137"
+	endpoint = var.endpoint
 	insecure = true
 	wait_timeout = 60
 }

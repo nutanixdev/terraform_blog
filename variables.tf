@@ -4,3 +4,7 @@ variable "subnet_name" {
 }
 variable "password" {
 }
+variable "endpoint" {
+}
+variable "user" {
+}
