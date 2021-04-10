@@ -30,4 +30,4 @@ Main concepts covered are as follows:
 
 ## Disclaimer
 
-Please see the [.disclaomer](.disclaimer) file distributed with this repository.
+Please see the [.disclaimer](.disclaimer) file distributed with this repository.
