@@ -1,15 +1,16 @@
 variable "cluster_name" {
-    type = string
+  type = string
 }
 variable "subnet_name" {
-    type = string
+  type = string
 }
 variable "password" {
-    type = string
+  type      = string
+  sensitive = true
 }
 variable "endpoint" {
-    type = string
+  type = string
 }
 variable "user" {
-    type = string
+  type = string
 }

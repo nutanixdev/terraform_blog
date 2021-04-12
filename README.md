@@ -1,1 +1,1 @@
-#Replace the variables in terraform.tfvars file with values for your environment.
+Updates the values in [terraform.tfvars](terraform.tfvars) for your environment.
