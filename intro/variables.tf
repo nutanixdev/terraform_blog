@@ -6,7 +6,6 @@ variable "subnet_name" {
 }
 variable "password" {
   type      = string
-  sensitive = true
 }
 variable "endpoint" {
   type = string
