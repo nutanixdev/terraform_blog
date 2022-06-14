@@ -24,8 +24,8 @@ provider "nutanix" {
 
 resource "nutanix_image" "image" {
   name        = "Arch Linux"
-  description = "Arch-Linux-x86_64-basic-20210401.18564"
-  source_uri  = "https://mirror.pkgbuild.com/images/latest/Arch-Linux-x86_64-basic-20210415.20050.qcow2"
+  description = "Arch-Linux-x86_64-basic"
+  source_uri  = "https://geo.mirror.pkgbuild.com/images/latest/Arch-Linux-x86_64-basic.qcow2"
 }
 
 resource "nutanix_virtual_machine" "vm" {
